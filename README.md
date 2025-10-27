@@ -16,23 +16,27 @@ Recordings were collected at a public dog park, providing dynamic and challengin
 ---
 
 ## Dataset Structure
+
+Each numbered folder represents a single recording session (a short LiDAR sequence):
+
+```text
 Finished Dog Dataset/
 │
-├── manifest.json # Global dataset index used to locate sequences
+├── manifest.json            # Global dataset index used to locate sequences
 │
-├── 001/ # Sequence folder (example)
-│ ├── index.jsonl # Frame list and metadata (timestamps, alignment, etc.)
-│ ├── labels/ # JSON annotations per frame
-│ │ ├── 000001.json
-│ │ ├── 000002.json
-│ │ └── ...
-│ └── points/ # LiDAR frames in binary format
-│ ├── 000001.bin
-│ ├── 000002.bin
-│ └── ...
+├── 001/                     # Sequence folder (example)
+│   ├── index.jsonl           # Frame list and metadata (timestamps, alignment, etc.)
+│   ├── labels/               # JSON annotations per frame
+│   │   ├── 000001.json
+│   │   ├── 000002.json
+│   │   └── ...
+│   └── points/               # LiDAR frames in binary format
+│       ├── 000001.bin
+│       ├── 000002.bin
+│       └── ...
 │
 ├── 002/
-│ └── ...
+│   └── ...
 └── ...
 
 ---
