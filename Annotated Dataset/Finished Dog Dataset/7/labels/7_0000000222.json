@@ -1,0 +1,46 @@
+{
+  "id": "7_0000000222",
+  "point_cloud_rel": "Revised Dog Data/7/7_0000000222.pcd",
+  "objects": [
+    {
+      "class": "Atlas",
+      "occluded": false,
+      "position": [
+        76.22,
+        -11.04,
+        3.24
+      ],
+      "rotation": [
+        -0.09,
+        -0.06,
+        0.31
+      ],
+      "scale": [
+        1.01,
+        3.18,
+        1.75
+      ],
+      "track_id": 65
+    },
+    {
+      "class": "Human",
+      "occluded": false,
+      "position": [
+        60.16,
+        -3.91,
+        2.55
+      ],
+      "rotation": [
+        -0.14,
+        -0.01,
+        0.04
+      ],
+      "scale": [
+        1.29,
+        1.54,
+        3.07
+      ],
+      "track_id": 66
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5_0000000245",
+  "point_cloud_rel": "Revised Dog Data/5/5_0000000245.pcd",
+  "objects": [
+    {
+      "class": "Human",
+      "occluded": false,
+      "position": [
+        30.24,
+        7.95,
+        0.64
+      ],
+      "rotation": [
+        -0.0,
+        -0.08,
+        -0.01
+      ],
+      "scale": [
+        1.18,
+        1.63,
+        2.78
+      ],
+      "track_id": 42
+    }
+  ]
+}

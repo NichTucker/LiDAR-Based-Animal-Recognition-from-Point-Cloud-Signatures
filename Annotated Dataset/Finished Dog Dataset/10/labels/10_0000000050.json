@@ -1,0 +1,106 @@
+{
+  "id": "10_0000000050",
+  "point_cloud_rel": "Revised Dog Data/10/10_0000000050.pcd",
+  "objects": [
+    {
+      "class": "Dog",
+      "occluded": false,
+      "position": [
+        21.49,
+        -3.37,
+        0.2
+      ],
+      "rotation": [
+        -0.11,
+        -0.03,
+        -0.44
+      ],
+      "scale": [
+        1.76,
+        0.81,
+        0.9
+      ],
+      "track_id": 11
+    },
+    {
+      "class": "Dog",
+      "occluded": false,
+      "position": [
+        29.03,
+        -4.45,
+        0.7
+      ],
+      "rotation": [
+        -0.11,
+        -0.05,
+        0.41
+      ],
+      "scale": [
+        1.24,
+        1.0,
+        1.0
+      ],
+      "track_id": 12
+    },
+    {
+      "class": "Human",
+      "occluded": false,
+      "position": [
+        30.72,
+        -6.01,
+        1.6
+      ],
+      "rotation": [
+        -0.08,
+        -0.07,
+        -0.01
+      ],
+      "scale": [
+        1.39,
+        1.13,
+        2.69
+      ],
+      "track_id": 13
+    },
+    {
+      "class": "Human",
+      "occluded": false,
+      "position": [
+        68.53,
+        -2.67,
+        2.69
+      ],
+      "rotation": [
+        -0.04,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.21,
+        1.19,
+        2.03
+      ],
+      "track_id": 14
+    },
+    {
+      "class": "Atlas",
+      "occluded": false,
+      "position": [
+        63.65,
+        -2.47,
+        2.06
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.38
+      ],
+      "scale": [
+        2.39,
+        1.16,
+        1.17
+      ],
+      "track_id": 15
+    }
+  ]
+}

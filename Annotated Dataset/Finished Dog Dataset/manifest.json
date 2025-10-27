@@ -1,0 +1,44 @@
+{
+  "source_json": "C:\\UNI\\Thesis\\Dog Data\\Annotated_Dogs\\default.json",
+  "pc_root": "C:\\UNI\\Thesis\\Dog Data",
+  "buckets": {
+    "1": {
+      "count": 75
+    },
+    "10": {
+      "count": 97
+    },
+    "11": {
+      "count": 91
+    },
+    "12": {
+      "count": 12
+    },
+    "2": {
+      "count": 37
+    },
+    "3": {
+      "count": 148
+    },
+    "5": {
+      "count": 46
+    },
+    "6": {
+      "count": 54
+    },
+    "7": {
+      "count": 191
+    },
+    "8": {
+      "count": 46
+    },
+    "9": {
+      "count": 62
+    }
+  },
+  "totals": {
+    "items_in_json": 859,
+    "missing_skipped": 0,
+    "written": 859
+  }
+}
