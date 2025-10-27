@@ -5,13 +5,16 @@ The project investigates whether animals can be recognised from their point clou
 
 ---
 
-## Overview
-The pipeline processes Livox Avia LiDAR frames through:
-- **Clustering and Tracking:** detect and follow moving objects across frames.  
-- **Classification:** identify objects (e.g., dog, human, atlas) from cropped point-cloud regions.  
-- **Temporal Fusion:** combine predictions over short sequences for improved stability.
+## Overview of Code
 
-Recordings were collected at a public dog park, providing dynamic and challenging conditions.
+The code implements a complete LiDAR-based object recognition pipeline designed for dynamic outdoor environments.  
+It processes **Livox Avia** LiDAR frames through the following main stages:
+
+1. **Clustering and Tracking** - groups points into distinct moving objects and maintains consistent track IDs over time using geometric and feature-based associations.  
+2. **Fine-Grained Classification** - classifies each tracked object (e.g., `dog`, `human`, `atlas`) using per-frame graph networks and short-sequence temporal aggregation for improved stability.  
+3. **Export and Evaluation** - cropped regions of interest (ROIs) are exported from the cluster–track stage, and both stages record quantitative metrics (accuracy, F1 score, latency, etc.) for performance evaluation
+
+Recordings were collected at a **public dog park**, providing dynamic and challenging conditions for classifying classes.
 
 ---
 
@@ -38,11 +41,9 @@ Finished Dog Dataset/
 ├── 002/
 │   └── ...
 └── ...
-
+```
 ---
 
-
----
 
 ##  File Details
 
